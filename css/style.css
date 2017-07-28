@@ -1,0 +1,228 @@
+@charset "utf-8";
+html,body {
+	height: 100%;
+}
+.step-wrapper {
+	padding: 0 0.69rem;
+	background-color: #348cf7;
+	background-image: url("../images/BG-img.jpg");
+	background-repeat: repeat-x;
+	background-position: left bottom;
+	min-height: 100%;
+}
+.step-title {
+	padding: 0.2rem 0;
+	font-size: 0.26rem;
+	color: #fff;
+}
+.step-content {
+	margin-bottom: 0.38rem;
+	padding-bottom: 0.6rem;
+	background-image: url("../images/step-footer.png");
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+.step-content-box {
+	min-height: 7.4rem;
+	padding: 0 0.31rem;
+	line-height: 1.6em;
+	color: #348cf7;
+	font-size: 0.3rem;
+	background-color: #fff;
+	border-radius: 0.2rem;
+}
+.step-content-box .step_1 {
+	padding-top: 0.6rem;
+}
+.step-content-box .step_2 {
+	padding-top: 1.75rem;
+}
+.step-btn-group {
+	text-align: center;
+}
+.step-btn {
+	width: 5.41rem;
+	height: 0.97rem;
+	margin-bottom: 0.33rem;
+	background-color: #71f46b;
+	border: none;
+	font-size: 0.36rem;
+	color: #fff;
+	border-radius: 0.2rem;
+	box-shadow: 0px 0.2rem 0.3rem -0.2rem #1c51ff;
+}
+.step-btn.white {
+	background: #fff;
+	color: #3793f8;
+}
+.form-edited {
+	line-height: 1.5em;
+	overflow: hidden;
+	padding-bottom: 0.35rem;
+}
+.form-edited-group {
+	margin-top: 0.35rem;
+}
+.form-edited-title {
+	margin-bottom: 0.2rem;
+	font-size: 0.32rem;
+	color: #333333;
+	font-weight: 700;
+}
+.form-edited-text {
+	font-size: 0.32rem;
+	color: #333333;
+}
+.errorcode691 {
+	line-height: 1.2em;
+	padding-top: 0.7rem;
+}
+.errorcode691 .blod {
+	line-height: 1.3em;
+	font-size: 0.36rem;
+	color: #348cf7;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 0.5rem;
+}
+.ti2 {
+	text-indent: 2em;
+}
+.content-619 {
+	font-size: 0.28rem;
+	color: #348cf7;
+}
+.content-619 p {
+	margin-bottom: 0.4rem;
+}
+.content-619 p.tip {
+	padding-left: 0.18rem;
+	color: #e61281;
+}
+.content-619 p.tip i {
+	display: inline-block;
+	width: 0.16rem;
+	height: 0.22rem;
+	margin-right: 0.15rem;
+	background: url("../images/icon_01.png") no-repeat center;
+	background-size: 100% 100%;
+}
+.errorcode678_01 {
+	padding-top: 0.7rem;
+}
+.errorcode678_01 p {
+	font-size: 0.32rem;
+	color: #348cf7;
+	line-height: 1.4em;
+}
+.errorcode678_01 .zhuyi {
+	margin-top: 0.2rem;
+	margin-bottom: 0.7rem;
+	line-height: 1.2em;
+	font-size: 0.28rem;
+	color: #e40077;
+}
+.errorcode678_01 img.guangmao {
+	width: 5.5rem;
+}
+.errorcode678_02,
+.errorcode678_03,
+.errorcode678_04 {
+	text-indent: 2em;
+	padding-top: 1.95rem;
+	font-size: 0.32rem;
+}
+.errorcode678_03 {
+	padding-top: 1.25rem;
+}
+.errorcode678_04 {
+	padding-top: 2.04rem;
+}
+.errorcode769_01 {
+	padding-top: 1.26rem;
+}
+.errorcode769_01 img.errorcode769-pic{
+	width: 5.5rem;
+	margin-bottom: 1rem;
+}
+.errorcode769_01 p {
+	font-size: 0.28rem;
+	color: #348cf7;
+	text-indent: 2em;
+}
+.errorcode769_02 {
+	padding-top: 0.4rem;
+}
+.errorcode769_02 p,
+.errorcode769_02 p {
+	font-size: 0.32rem;
+	color: #348cf7;
+}
+.errorcode769_02 img {
+	display: block;
+	width: 3.81rem;
+	margin: 0.4rem auto 0;
+	box-shadow: 5px 5px 10px -5px #348cf7,-5px -5px 10px -5px #348cf7;
+}
+.errorcode769_03 {
+	padding-top: 0.5rem;
+}
+.errorcode769_03 img {
+	display: block;
+	width: 100%;
+	margin-top: 0.5rem;
+	box-shadow: 5px 5px 10px -5px #348cf7,-5px -5px 10px -5px #348cf7;
+}
+.errorcode769_04 {
+	padding-top: 2.27rem;
+}
+.errorcode769_04 p {
+	font-size: 0.32rem;
+	color: #348cf7;
+}
+/*表单样式*/
+.form-wrapper {
+	padding: 0 0.26rem;
+	background-color: #348cf7;
+	background-image: url("../images/BG-img.jpg");
+	background-repeat: repeat-x;
+	background-position: left bottom;
+	min-height: 100%;
+	font-size: 0.32rem;
+	color: #fff;
+}
+.form-edit-title {
+	padding: 0.24rem 0 0.20rem;
+}
+.form-wrapper input,
+.form-wrapper textarea,
+.form-wrapper select {
+	width: 100%;
+	background-color:#fff;
+	border: none;
+	border-radius: 0.1rem;
+	padding: 0 0.25rem;
+	box-sizing: border-box;
+}
+.form-wrapper select,
+.form-wrapper input {
+	height: 0.85rem;
+}
+.form-wrapper select {
+	padding-right: 0.73rem;
+	background-image: url("../images/icon_01.jpg");
+	background-repeat: no-repeat;
+	background-position: 6.24rem center;
+	background-size: 0.32rem auto;
+}
+.form-wrapper textarea {
+	height: 1.75rem;
+	padding-top: 0.3rem;
+	padding-bottom: 0.3rem;
+}
+.form-edit-textarea.h210 textarea {
+	height: 2.1rem;
+}
+.form-edit-textarea.h210 {
+	margin-bottom: 0.47rem;
+}
