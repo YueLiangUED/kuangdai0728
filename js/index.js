@@ -8,4 +8,8 @@
 $(document).ready(function(){
     var winH = $(window).height();
     $('body').height(winH);
+
+    $('.form-edit-select select').on('tap', function () {
+    	$(this).css('color', '#333');
+    });
 });

@@ -214,6 +214,7 @@ html,body {
 	background-repeat: no-repeat;
 	background-position: 6.24rem center;
 	background-size: 0.32rem auto;
+	color: #70beff;
 }
 .form-wrapper textarea {
 	height: 1.75rem;
@@ -225,4 +226,130 @@ html,body {
 }
 .form-edit-textarea.h210 {
 	margin-bottom: 0.47rem;
+}
+.form-wrapper input:-ms-input-placeholder{
+    color: #70beff;
+}
+.form-wrapper input::-webkit-input-placeholder{
+    color: #70beff;
+}
+.form-wrapper textarea:-ms-input-placeholder{
+    color: #70beff;
+}
+.form-wrapper textarea::-webkit-input-placeholder{
+    color: #70beff;
+}
+/*灯 样式*/
+.light-wrapper {
+	padding: 0 0.3rem;
+	background-color: #348cf7;
+	background-image: url("../images/BG-img.jpg");
+	background-repeat: repeat-x;
+	background-position: left bottom;
+	min-height: 100%;
+}
+.light-title {
+	height: 0.3rem;
+}
+.light-content {
+	margin-bottom: 0.38rem;
+	padding-bottom: 0.6rem;
+	background-image: url("../images/step-footer.png");
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+.light-content-box {
+	
+	padding: 0.25rem 0.2rem 0.4rem;
+	line-height: 1.6em;
+	color: #348cf7;
+	font-size: 0.3rem;
+	background-color: #fff;
+	border-radius: 0.2rem;
+}
+.light-content-box img {
+	display: block;
+	width: 100%;
+}
+.light-pic_02 {
+	margin-top: 0.3rem;
+	margin-bottom: 0.57rem;
+}
+.light_02 {
+	margin-top: 0.9rem;
+	margin-bottom: 1.05rem;
+}
+.notNet_01,
+.notNet_02,
+.notNet_03 {
+	padding-top: 0.4rem;
+	padding-bottom: 0.2rem;
+}
+
+.notNet_01 p,
+.notNet_02 p,
+.notNet_03 p  {
+	font-size: 0.32rem;
+	color: #348cf7;
+	margin-bottom: 0.15rem;
+	text-indent: 2em;
+}
+.notNet_01 img {
+	display: block;
+	width: 3.75rem;
+	margin: 0 auto;
+}
+.notNet_02 img {
+	display: block;
+	width: 4.68rem;
+	margin: 0 auto;
+}
+.notNet_03 img {
+	display: block;
+	width: 4.31rem;
+	margin: 0 auto;
+}
+.videoQ_01 {
+	padding-top: 0.65rem;
+}
+.diaoxian_02 {
+	padding-top: 0.3rem;
+	padding-bottom: 0.15rem;
+}
+.diaoxian_02 img {
+	display: block;
+	margin: 0 auto 0.2rem;
+	width: 100%;
+	box-shadow: 5px 5px 10px -5px #348cf7,-5px -5px 10px -5px #348cf7;
+}
+.diaoxian_02 p {
+	margin-bottom:  0.2rem;
+	text-indent: 2em;
+}
+.diaoxian_01 {
+	padding-top: 1.1rem;
+}
+.diaoxian_01 p {
+	text-indent: 2em;
+}
+.index-wrapper {
+	padding: 0 0.82rem;
+	background-color: #348cf7;
+	background-image: url("../images/BG-img.jpg");
+	background-repeat: repeat-x;
+	background-position: left bottom;
+	min-height: 100%;
+}
+.user-inf {
+	text-align: center;
+	padding-top: 0.6rem;
+}
+.user-ava {
+	margin-bottom: 0.6rem;
+	width: 1.4rem;
+	height: 1.4rem;
+}
+.user-num {
+	font-size: 0.36rem;
+	color: #ffffff;
 }
