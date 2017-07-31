@@ -41,8 +41,10 @@ html,body {
 	text-align: center;
 }
 .step-btn {
+	display: inline-block;
 	width: 5.41rem;
 	height: 0.97rem;
+	line-height: 0.97rem;
 	margin-bottom: 0.33rem;
 	background-color: #71f46b;
 	border: none;
@@ -333,7 +335,6 @@ html,body {
 	text-indent: 2em;
 }
 .index-wrapper {
-	padding: 0 0.82rem;
 	background-color: #348cf7;
 	background-image: url("../images/BG-img.jpg");
 	background-repeat: repeat-x;
@@ -352,4 +353,94 @@ html,body {
 .user-num {
 	font-size: 0.36rem;
 	color: #ffffff;
+}
+.q-list {
+	width: 5.95rem;
+	margin: 1.44rem auto 0;
+}
+.q-list-slide {
+	display: flex;
+	display: -webkit-flex;
+	flex-wrap: wrap;
+}
+.question-item {
+	display: flex;
+	display: -webkit-flex;
+	margin: 0.035rem;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 2.9rem;
+	height: 2.9rem;
+	background: rgba(255, 255, 255, 0.2);
+	text-align: center;
+}
+.question-item p {
+	font-size: 0.36rem;
+	color: #fff;
+	margin-top: 0.2rem;
+}
+.icons {
+	display: block;
+	width: 0.9rem;
+	height: 0.9rem;
+	background-image: url("../images/icon-s.png");
+	background-repeat: no-repeat;
+	background-size: 5.4rem 1.8rem;
+}
+.icons.icon-a {
+	background-position: 0 0;
+}
+.icons.icon-b {
+	background-position: -0.9rem 0;
+}
+.icons.icon-c {
+	background-position: 0 -0.9rem;
+}
+.icons.icon-d {
+	background-position: -0.9rem -0.9rem;
+}
+.icons.icon-e {
+	background-position: -1.8rem 0;
+}
+.icons.icon-f {
+	background-position: -2.7rem 0;
+}
+.icons.icon-g {
+	background-position: -1.8rem -0.9rem;
+}
+.icons.icon-h {
+	background-position: -2.7rem -0.9rem;
+}
+.icons.icon-i {
+	background-position: -3.6rem 0rem;
+}
+.icons.icon-j {
+	background-position: -4.5rem 0rem;
+}
+.icons.icon-k {
+	background-position: -3.6rem -0.9rem;
+}
+.icons.icon-l {
+	background-position: -4.5rem -0.9rem;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets.q-list-pagination, .swiper-pagination-custom, .swiper-pagination-fraction {
+	bottom: 0;
+}
+.q-list-pagination .swiper-pagination-bullet {
+	width: 0.2rem;
+	height: 0.2rem;
+	background-image: url("../images/icon_04.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-color: rgba(0, 0, 0, 0.0);
+}
+.q-list-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+	background-image: url("../images/icon_03.png");
+}
+.q-list-container {
+	height: 6.7rem;
+}
+.q-list-wrapper {
+	height: 6rem;
 }
