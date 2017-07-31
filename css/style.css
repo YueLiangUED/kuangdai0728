@@ -380,49 +380,8 @@ html,body {
 	color: #fff;
 	margin-top: 0.2rem;
 }
-.icons {
-	display: block;
+.question-item img {
 	width: 0.9rem;
-	height: 0.9rem;
-	background-image: url("../images/icon-s.png");
-	background-repeat: no-repeat;
-	background-size: 5.4rem 1.8rem;
-}
-.icons.icon-a {
-	background-position: 0 0;
-}
-.icons.icon-b {
-	background-position: -0.9rem 0;
-}
-.icons.icon-c {
-	background-position: 0 -0.9rem;
-}
-.icons.icon-d {
-	background-position: -0.9rem -0.9rem;
-}
-.icons.icon-e {
-	background-position: -1.8rem 0;
-}
-.icons.icon-f {
-	background-position: -2.7rem 0;
-}
-.icons.icon-g {
-	background-position: -1.8rem -0.9rem;
-}
-.icons.icon-h {
-	background-position: -2.7rem -0.9rem;
-}
-.icons.icon-i {
-	background-position: -3.6rem 0rem;
-}
-.icons.icon-j {
-	background-position: -4.5rem 0rem;
-}
-.icons.icon-k {
-	background-position: -3.6rem -0.9rem;
-}
-.icons.icon-l {
-	background-position: -4.5rem -0.9rem;
 }
 .swiper-container-horizontal>.swiper-pagination-bullets.q-list-pagination, .swiper-pagination-custom, .swiper-pagination-fraction {
 	bottom: 0;
