@@ -27,4 +27,25 @@ $(document).ready(function(){
     $('.step-btn.enter-step-return').on('click', function () {
         history.go(-1);
     });
+
+    // tab切换
+    $('.step-btn-group.wifi').on('click', '.step-btn', function () {
+        $('.step-btn-group.wifi .step-btn').css({
+            'background-color': '#fff',
+            'color': '#348cf7'
+        });
+        $(this).css({
+            'background-color': '#71f46b',
+            'color': '#fff'
+        });
+        var index = $(this).index();
+        if (index == 0) {
+            $('.light-content').css('background-position','left bottom' );
+        } else {
+            $('.light-content').css('background-position','right bottom' );
+        }
+        var indexWifiBox = $('.setWifi-box')[index];
+        $('.setWifi-box').hide();
+        $(indexWifiBox).show();
+    });
 });

@@ -258,20 +258,44 @@ html,body {
 	padding-bottom: 0.6rem;
 	background-image: url("../images/step-footer.png");
 	background-repeat: no-repeat;
-	background-position: center bottom;
+	background-position: left bottom;
 }
 .light-content-box {
-	
-	padding: 0.25rem 0.2rem 0.4rem;
 	line-height: 1.6em;
 	color: #348cf7;
 	font-size: 0.3rem;
 	background-color: #fff;
 	border-radius: 0.2rem;
 }
+.light-content-title {
+	height: 1rem;
+	line-height: 1rem;
+	width: 100%;
+	text-align: center;
+	font-size: 0.36rem;
+	color: #348cf7;
+	border-radius: 0.2rem 0.2rem 0 0;
+	background-color: #edf5ff;
+}
 .light-content-box img {
 	display: block;
 	width: 100%;
+}
+.light-content-box .setWifi-box {
+	padding: 0.2rem;
+	height: 7.58rem;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.step-btn-group.wifi {
+	width: 6.9rem;
+	margin: 0 auto;
+	display: flex;
+	display: -webkit-flex;
+	justify-content: space-between;
+}
+.step-btn-group.wifi .step-btn {
+	width: 3.3rem;
 }
 .light-pic_02 {
 	margin-top: 0.3rem;
@@ -370,8 +394,8 @@ html,body {
 	width: 7.44rem;
 	height: 9.93rem;
 	margin: 0 auto;
+	padding-bottom: 0.35rem;
 }
 .q-list a {
 	background: rgba(255, 255, 255, .15);
-	margin-bottom: 
 }
